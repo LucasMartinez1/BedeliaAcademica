@@ -1,0 +1,29 @@
+
+.custom-time-picker {
+    width: 100%;
+    max-width: 200px; 
+    padding: 8px; 
+    border: 1px solid #d1d5db; 
+    border-radius: 0.375rem; 
+    font-size: 16px; 
+    text-align: center; 
+}
+
+react-time-picker__inputGroup__input {
+    width: 40px; /* Ajusta el ancho de cada input */
+    height: 40px; /* Ajusta el alto de cada input */
+    text-align: center; /* Centrar el texto */
+    padding: 0;
+    margin: 0;
+    font-size: 16px; /* tamaño de la fuente */
+    border: none; /* Quitar borde */
+}
+
+.react-time-picker__inputGroup__leadingZero {
+    display: none; /* Ocultar el cero principal */
+}
+
+.react-time-picker__inputGroup__divider {
+    margin: 0 4px; /* Espacio entre los divisores */
+    font-size: 16px; /* tamaño de la fuente */
+}
